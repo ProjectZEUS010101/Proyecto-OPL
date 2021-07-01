@@ -114,5 +114,5 @@ Note: on PS3, only USB and SMB modes are supported.
 ## Some notes for devs
 
 Open PS2 Loader needs the latest PS2SDK:
-
+ 
 https://github.com/ps2dev/ps2sdk
