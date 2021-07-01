@@ -177,3 +177,19 @@ jobs:
           OPNPS2LD-VARIANTS-${{ steps.version.outputs.version }}.7z
           OPNPS2LD.7z
           OPNPS2LD-VARIANTS.7z
+
+    - name: Upload pre-release
+      uses: Difegue/action-megacmd@master
+      with:
+       args: put *${{ steps.version.outputs.version }}.7z /OPL/Pre-Release/
+       env:
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+
+    - name: Upload release
+      uses: Difegue/action-megacmd@master
+      with:
+       args: put /path/to/local/folder /OPL/Release/
+       env:
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
