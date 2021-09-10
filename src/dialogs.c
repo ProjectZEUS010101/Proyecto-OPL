@@ -845,7 +845,7 @@ struct UIItem diaAbout[] = {
     {UI_BREAK},
     {UI_LABEL, 0, 1, 1, -1, 0, 0, {.label = {NULL, _STR_FORUM_DETAILS}}},
     {UI_SPACER},
-    {UI_LABEL, 0, 1, 1, -1, 0, 0, {.label = {"psx-place.com", -1}}},
+    {UI_LABEL, 0, 1, 1, -1, 0, 0, {.label = {"psx-place.com | Este mod de OPL fue creado por matías Israelson", -1}}},
     {UI_BREAK},
 
     // buttons
