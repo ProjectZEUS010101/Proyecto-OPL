@@ -1171,7 +1171,7 @@ static void thmLoad(const char *themePath)
     newT->gameCacheCount = 0;
     newT->itemsList = NULL;
     newT->loadingIcon = NULL;
-    newT->loadingIconCount = LOAD7_ICON - LOAD0_ICON + 1;
+    newT->loadingIconCount = LOAD17_ICON - LOAD0_ICON + 1;
 
     config_set_t *themeConfig = NULL;
     if (!themePath) {
