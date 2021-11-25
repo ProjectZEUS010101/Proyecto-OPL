@@ -13,16 +13,6 @@ extern void *load4_png;
 extern void *load5_png;
 extern void *load6_png;
 extern void *load7_png;
-extern void *load8_png;
-extern void *load9_png;
-extern void *load10_png;
-extern void *load11_png;
-extern void *load12_png;
-extern void *load13_png;
-extern void *load14_png;
-extern void *load15_png;
-extern void *load16_png;
-extern void *load17_png;
 extern void *usb_png;
 extern void *hdd_png;
 extern void *eth_png;
@@ -72,16 +62,6 @@ static texture_t internalDefault[TEXTURES_COUNT] = {
     {LOAD5_ICON, "load5", &load5_png},
     {LOAD6_ICON, "load6", &load6_png},
     {LOAD7_ICON, "load7", &load7_png},
-    {LOAD7_ICON, "load8", &load8_png},
-    {LOAD7_ICON, "load9", &load9_png},
-    {LOAD7_ICON, "load10", &load10_png},
-    {LOAD7_ICON, "load11", &load11_png},
-    {LOAD7_ICON, "load12", &load12_png},
-    {LOAD7_ICON, "load13", &load13_png},
-    {LOAD7_ICON, "load14", &load14_png},
-    {LOAD7_ICON, "load15", &load15_png},
-    {LOAD7_ICON, "load16", &load16_png},
-    {LOAD7_ICON, "load17", &load17_png},
     {USB_ICON, "usb", &usb_png},
     {HDD_ICON, "hdd", &hdd_png},
     {ETH_ICON, "eth", &eth_png},
