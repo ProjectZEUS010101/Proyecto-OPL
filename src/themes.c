@@ -1171,7 +1171,7 @@ static void thmLoad(const char *themePath)
     newT->gameCacheCount = 0;
     newT->itemsList = NULL;
     newT->loadingIcon = NULL;
-    newT->loadingIconCount = LOAD17_ICON - LOAD0_ICON + 1;
+    newT->loadingIconCount = LOAD7_ICON - LOAD0_ICON + 1;
 
     config_set_t *themeConfig = NULL;
     if (!themePath) {
@@ -1266,7 +1266,7 @@ static void thmLoad(const char *themePath)
     // First start with busy icon
     const char *themePath_temp = themePath;
     int customBusy = 0;
-    for (i = LOAD0_ICON; i <= LOAD7_ICON; i++) {
+    for (i = LOAD0_ICON; i <= LOAD17_ICON; i++) {
         if (thmLoadResource(i, themePath_temp, GS_PSM_CT32, gTheme->useDefault) >= 0)
             customBusy = 1;
         else {
